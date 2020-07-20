@@ -8,9 +8,13 @@ dockerfile {
     mvnSkipDeploy = true
     nodeLabel = 'docker-oraclejdk8-compose-swarm'
     dockerPush = true
-    slackChannel = '#ksql-alerts'
+    // slackChannel = '#ksql-alerts'
     cron = ''
     cpImages = true
     osTypes = ['ubi8']
+    disableConcurrentBuilds = true
+    // TODO: For testing only
+    slackChannel = ''
+    testbreakReporting = false
 }
 

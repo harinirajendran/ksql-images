@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: cp-ksql-server-tests
+Version: 0.0.1
+Summary: Docker image tests
+Home-page: https://github.com/confluentinc/ksql-images
+Author: Confluent, Inc.
+Author-email: partner-support@confluent.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7
